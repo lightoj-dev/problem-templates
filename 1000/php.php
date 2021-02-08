@@ -12,14 +12,15 @@ function sum($a, $b) {
  * Takes care of the problem input and output.
  */
 function greetingsFromLightOJ() {
-  	$cases = intval(fgets(STDIN));
+    $cases = intval(fgets(STDIN));
+
     for ($caseno = 1; $caseno <= $cases; ++$caseno) {
-      	$line = explode(" ", fgets(STDIN));
+        $line = explode(" ", fgets(STDIN));
       	$a = intval($line[0]);
       	$b = intval($line[1]);
 
-      	fwrite(STDOUT, 'Case ' . $caseno . ': ' . sum($a, $b) . "\n");
-	}
+        fwrite(STDOUT, 'Case ' . $caseno . ': ' . sum($a, $b) . "\n");
+    }
 }
 
 greetingsFromLightOJ();
