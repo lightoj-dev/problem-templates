@@ -12,12 +12,38 @@ We are planning to have solution templates for all possible languages. But you d
 Each problem will have its own folder with the name of its problem id, such as 1000, 1214. Each folder will contain templates such as:
 
 ```
+bash.sh
+c.c
+clojure.clj
 cpp.cpp
 cpp14.cpp
 cpp17.cpp
+csharp.cs
+dart.dart
+elixir.exs
+erlang.erl
+go.go
+groovy.groovy
+haskell.hs
 java.java
 scala.scala
-...
+javascript.js
+kotlin.kt
+lisp.lisp
+lua.lua
+objectivec.mm
+pascal.pas
+perl.pl
+php.php
+python3.py
+r.r
+ruby.rb
+rust.rs
+scala.scala
+sql.sql
+swift.swift
+visualbasic.vb
+
 ```
 
 Each tempale should simplify the input and output. But should not give away any solution hints. Please properly indent your code, also add comments on your code to make code more readable to problem solvers.
