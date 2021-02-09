@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /**
- * Returns the total number of problems.
+ * Returns the number of problems in the first computer and second computer
  *
  * @param n denotes the total number of problems in both computer
 **/
