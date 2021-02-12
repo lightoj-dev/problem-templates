@@ -9,6 +9,8 @@ an issue first like this: https://github.com/lightoj-dev/problem-templates/issue
 
 We are planning to have solution templates for all possible languages. But you don't need to work on all, write any langauge you are familiar with.
 
+Make sure that you are using spaces and 4 spaces for indentation.
+
 Each problem will have its own folder with the name of its problem id, such as 1000, 1214. Each folder will contain templates such as:
 
 ```
