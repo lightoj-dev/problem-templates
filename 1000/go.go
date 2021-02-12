@@ -7,23 +7,22 @@ import "fmt"
  *
  * @param a denotes the number of problems in the first computer
  * @param b denotes the number of problems in the second computer
-**/
-func process(a, b int) int {
-	// Implement this method
-
+ **/
+func sum(a, b int) int {
+    // Implement this method
+    
 }
 
 /**
  * Takes care of the problem input and output.
-**/
+ **/
 func main() {
-	var test int
-	fmt.Scan(&test)
+    var cases int
+    fmt.Scan(&cases)
 
-	for t := 1; t <= test; t++ {
-		var a, b int
-		fmt.Scan(&a, &b)
-
-		fmt.Printf("Case %d: %d\n", t, process(a, b))
-	}
+    for caseno := 1; caseno <= cases; caseno++ {
+        var a, b int
+        fmt.Scan(&a, &b)
+        fmt.Printf("Case %d: %d\n", caseno, sum(a, b))
+    }
 }
