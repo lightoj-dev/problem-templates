@@ -14,9 +14,9 @@ vector<int> problemsStored(int n) {
  * Takes care of the problem input and output.
  */
 int main() {
-    int T;
-    scanf("%d", &T);
-    while (T--) {
+    int caseno;
+    scanf("%d", &caseno);
+    while (caseno--) {
         int n;
         scanf("%d", &n);
         
