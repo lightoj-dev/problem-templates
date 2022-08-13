@@ -20,16 +20,7 @@ process.stdin.on('end', function() {
 });
 
 function solution(singleCase){
-    let aSq = singleCase[0] * singleCase[0];
-    let bSq = singleCase[1] * singleCase[1];
-    let cSq = singleCase[2] * singleCase[2];
-    if(
-        (aSq + bSq) === cSq ||
-        (cSq + bSq) === aSq ||
-        (aSq + cSq) === bSq){
-        return "yes";
-    }
-    return "no";
+    // Implement your solution here.
 }
 
 function run_it() {
