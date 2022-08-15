@@ -19,7 +19,7 @@ process.stdin.on('end', function() {
     run_it();
 });
 
-function solution(singleCase){
+function solution(a, b, c){
     // Implement your solution here.
 }
 
@@ -28,6 +28,6 @@ function run_it() {
     
     for(let i=1; i<=nCases;i++){
         const singleCase = readLine().split(' ');
-        console.log("Case " + i + ": " + solution(singleCase));
+        console.log("Case " + i + ": " + solution(singleCase[0], singleCase[1], singleCase[2]));
     }
 }
