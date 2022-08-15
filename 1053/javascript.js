@@ -28,6 +28,7 @@ function run_it() {
     
     for(let i=1; i<=nCases;i++){
         const singleCase = readLine().split(' ');
+        singleCase.map(x => parseInt(x));
         console.log("Case " + i + ": " + solution(singleCase[0], singleCase[1], singleCase[2]));
     }
 }
